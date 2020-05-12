@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to bottom,black,rgb(150,150,150),rgb(255,255,255));
+}
+h1{
+    color:saddlebrown;
+}
+.subtitle{
+    color:rgb(121, 90, 150);
+}
+#contactus:hover{
+    color: sandybrown;
+}
+div{
+    height: 500px;
+    width: 500px;
+    background-color: oldlace;
+    background: url("../img/img-2.jpg") ;
+    background-size: auto;
+    background-color: oldlace;
+    margin:5px;
+}
+/* li:first-child{
+    background: seagreen;
+} */
+/* li:last-child{
+    background-color: seagreen;
+} */
+/* li:nth-child(2){
+    background-color: slateblue;
+} */
+/* li:only-child{
+    background: tan;
+} */
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+h2+a{
+    background-color: green;
+}
+input~button{
+    background-color: greenyellow;
+}
+ul>li{
+    color:rgb(250, 34, 178);
+}
+ul li{
+    background-color: greenyellow;
+}
+/* img[src^="../img/"]{
+    border:4px dashed black;
+} 
+img[src$="img-2.jpg"]{
+    border: 5px dotted orange;
+    
+}
+img[src*="img"]{
+    border: 3px solid navy;
+} */
+h2[class~=secondclass]{
+    background-color: lightcoral;
+}
