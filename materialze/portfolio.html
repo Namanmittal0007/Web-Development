@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Naman Mittal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Import font awesome -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <style>
+            header{
+                background-image: url(https://raw.githubusercontent.com/iamshaunjp/materialize-playlist/lesson-17/img/man.jpg);
+                background-size: cover;
+                background-position:center ;
+                min-height:800px;
+            }
+            .h{
+                text-align: justify;
+            }
+            .tabs .indicator{
+                background-color: indigo;
+            }
+            .tabs .tab a:focus,.tabs .tab a:focus.active{
+                background: transparent;
+            } 
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-wrapper transparent">
+                <div class="container">
+                    <a href="#" class="brand-logo">Naman Mittal</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#photos">Photos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="sidenav grey lighten-3 " id="mobile-nav">
+                        <li><a href="#photos">Photos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header><br><br>
+        <section class="container section scrollspy" id="photos">
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="https://github.com/iamshaunjp/materialize-playlist/blob/lesson-17/img/portrait.jpg?raw=true" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l7 offset-l1">
+                    <h2 class="indigo-text">
+                        Portraits
+                    </h2>
+                    <p class="h">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quis, aut asperiores at delectus eligendi labore officia. Illo dolorem a itaque assumenda voluptas, officia fugiat est doloribus exercitationem, sequi cumque.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4 push-l8">
+                    <img src="https://github.com/iamshaunjp/materialize-playlist/blob/lesson-17/img/city.jpg?raw=true" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l7 pull-l4 right-align">
+                    <h2 class="indigo-text">
+                        Cityscapes
+                    </h2>
+                    <p class="h">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis, odit aperiam dicta architecto soluta et laborum cum saepe dolore eaque natus debitis nisi, earum, in dolorem! Laboriosam, soluta consequuntur.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="https://github.com/iamshaunjp/materialize-playlist/blob/lesson-17/img/nature.jpg?raw=true" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l7 offset-l1">
+                    <h2 class="indigo-text">
+                        Nature
+                    </h2>
+                    <p class="h">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, voluptas tenetur fugit aspernatur nulla explicabo officia delectus ea quod, dolorem illo repudiandae magnam accusamus cum? Officiis ut accusantium nulla quo.</p>
+                </div>
+            </div>
+        </section><br><br>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="https://github.com/iamshaunjp/materialize-playlist/blob/lesson-17/img/stars.jpg?raw=true" alt="" class="responsive-img">
+            </div>
+        </div>
+        <section class="container section scrollspy" id="services">
+            <div class="row">
+                <div class="col s12 l4">
+                    <h2 class="indigo-text">
+                        What i do..
+                    </h2>
+                    <p class="h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam magnam sequi, necessitatibus laudantium error, amet voluptatem inventore quidem placeat, fuga eveniet dicta rerum distinctio animi eum minus praesentium corrupti natus?</p>
+                </div>
+                <div class="col s12 l6 offset-l2">
+                    <ul class="tabs">
+                        <li class="tab col s6">
+                            <a class="indigo-text" href="#photography"><h5>Photography</h5></a>
+                        </li>
+                        <li class="tab col s6">
+                            <a href="#editing" class="indigo-text"><h5>Editing</h5></a>
+                        </li>
+                    </ul>
+                    <div class="col s12" id="photography">
+                        <p class="flow-text indigo-text">Photography</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ut tempora sequi quod error odit laborum magni natus illo totam a iusto porro molestiae veritatis minus, id quam ullam sit.</p>
+                    </div>
+                    <div class="col s12" id="editing">
+                        <p class="flow-text indigo-text">Editing</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aperiam minima, esse quo, numquam obcaecati veniam, magnam ducimus similique id architecto nulla unde dolor neque officia magni ex temporibus reiciendis!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="https://github.com/iamshaunjp/materialize-playlist/blob/lesson-17/img/street.jpg?raw=true" alt="" class="responsive-img">
+            </div>
+        </div>
+        <section class="section container scrollspy" id="contact">
+            <div class="row">
+                <div class="col s12 l5">
+                    <h4 class="indigo-text">Contact us</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda excepturi repellendus eveniet repellat, quisquam doloremque consequuntur nisi impedit totam minus est, molestiae dolorem dolorum nam ipsum et quaerat sint in?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda excepturi repellendus eveniet repellat, quisquam doloremque consequuntur nisi impedit totam minus est, molestiae dolorem dolorum nam ipsum et quaerat sint in?</p>
+                </div>
+                <div class="col s12 l5 offset-l2">
+                    <form action="">
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input type="email" id="email">
+                            <label for="email">Enter your email</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Enter your message</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="date" class="datepicker">
+                            <label for="date">Choose the date</label>
+                        </div>
+                        <div class="input-field">
+                            <p>Services required..</p>
+                            <p>
+                                <label >
+                                    <input type="checkbox">
+                                    <span>Photography</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox">
+                                    <span>Editing</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field center">
+                            <button class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                        <h4 class="grey-text text-lighten-4">
+                            About me
+                        </h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi quia obcaecati! Sunt, quod eaque expedita enim molestiae veritatis cumque debitis, soluta beatae sequi voluptatibus illo laboriosam, excepturi iste possimus!</p>
+                    </div>
+                    <div class="col s12 l4 offset-l2">
+                        <h4 class="grey-text text-lighten-4">Connect</h4>
+                        <ul>
+                            <li><a href="#" class="grey-text text-lighten-4">Facebook</a></li>
+                            <li><a href="#" class="grey-text text-lighten-4">Instagram</a></li>
+                            <li><a href="#" class="grey-text text-lighten-4">Linkedin</a></li>
+                            <li><a href="#" class="grey-text text-lighten-4">Github</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-5">
+                <div class="container center-align">
+                    &copy; 2020 Naman Mittal
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.materialboxed').materialbox();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.datepicker').datepicker({
+                    disableWeekends: true
+                });
+                $('.tooltipped').tooltip();
+                $('.scrollspy').scrollSpy();
+            });
+        </script>
+    </body>
+</html>
